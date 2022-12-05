@@ -7,7 +7,7 @@ public class DayOne_1 {
     int somma = 0;
     int risultato = 0;
     try {
-      File myObj = new File("DayOne_1.txt");
+      File myObj = new File("testDayOne.txt");
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
